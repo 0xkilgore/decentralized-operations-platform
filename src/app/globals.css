@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/**** TEST DEPLOYMENT V1 ****/
-
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -48,14 +46,6 @@
     --border: 0 0% 14.9%;
     --input: 0 0% 14.9%;
     --ring: 0 0% 83.1%;
-  }
-  
-  /* Test deployment style */
-  h1 {
-    font-size: 3rem !important;
-    color: #FF00FF !important;
-    border: 3px solid #FF00FF !important;
-    padding: 10px !important;
   }
 }
 
