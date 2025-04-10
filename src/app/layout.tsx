@@ -18,7 +18,7 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "TEST DEPLOYMENT - Powerhouse Platform",
+  title: "Powerhouse | Decentralized Operations Platform",
   description: "Streamlining Processes for Distributed Organizations",
 }
 
@@ -28,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" suppressHydrationWarning className={`${inter.variable} ${poppins.variable}`} style={{backgroundColor: '#121212'}}>
+    <html lang="en" suppressHydrationWarning className={`${inter.variable} ${poppins.variable}`}>
       <body className="min-h-screen font-sans">
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           {children}
