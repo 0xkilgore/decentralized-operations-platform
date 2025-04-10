@@ -105,4 +105,11 @@
   .neon-green {
     color: #34eb4f;
   }
-}
+  
+  .animated-grid {
+    @apply relative;
+    background-color: hsl(var(--background));
+    background-image: radial-gradient(#222 1px, transparent 0);
+    background-size: 30px 30px;
+  }
+} 

@@ -1,0 +1,1 @@
+{"cleanUrls":true,"trailingSlash":false,"version":2,"buildCommand":"npm run build","outputDirectory":".next","build":{"env":{"NEXT_PUBLIC_FORCE_REFRESH":"true","NEXT_PUBLIC_TIMESTAMP":"2024041018"}},"headers":[{"source":"/(.*)","headers":[{"key":"Cache-Control","value":"no-store, max-age=0"}]}]}

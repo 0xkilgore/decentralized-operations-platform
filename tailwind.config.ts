@@ -68,6 +68,7 @@ const config: Config = {
       },
       fontFamily: {
         sans: ["var(--font-inter)", ...defaultTheme.fontFamily.sans],
+        heading: ["var(--font-poppins)", ...defaultTheme.fontFamily.sans],
         mono: ["var(--font-roboto-mono)", ...defaultTheme.fontFamily.mono],
       },
       animation: {
