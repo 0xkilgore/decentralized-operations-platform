@@ -11,16 +11,20 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode
-}>) {
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className="min-h-screen">
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
-          {children}
-        </ThemeProvider>
+    <html style={{ backgroundColor: 'purple' }}>
+      <head>
+        <title>ROOT DIRECTORY TEST</title>
+      </head>
+      <body style={{ backgroundColor: 'red', color: 'white', padding: '30px', fontFamily: 'Arial' }}>
+        <h1 style={{ color: 'yellow', border: '5px solid yellow', padding: '20px' }}>
+          TEST FROM ROOT DIRECTORY
+        </h1>
+        {children}
       </body>
     </html>
-  )
+  );
 }
