@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 18, 18, 18;
+  --background-end-rgb: 12, 12, 12;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+@layer base {
+  body {
+    @apply font-sans antialiased text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    letter-spacing: -0.01em;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-sans font-semibold tracking-tight;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-neon-green text-background font-medium py-3 px-6 rounded-md hover:bg-neon-green-light transition-colors duration-300 inline-flex items-center justify-center;
+  }
+
+  .btn-secondary {
+    @apply border border-neon-green text-neon-green font-medium py-3 px-6 rounded-md hover:bg-neon-green/10 transition-colors duration-300 inline-flex items-center justify-center;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-6 md:mb-10 tracking-tight;
+  }
+
+  .section-subtitle {
+    @apply text-xl md:text-2xl font-semibold mb-4 tracking-tight;
+  }
+
+  .neon-glow {
+    text-shadow: 0 0 10px rgba(52, 235, 79, 0.7);
+  }
+
+  .neon-border {
+    @apply border border-neon-green;
+  }
+
+  .card {
+    @apply bg-background-light rounded-lg p-6 transition-all duration-300 hover:shadow-[0_0_15px_rgba(52,235,79,0.3)];
+  }
+}
