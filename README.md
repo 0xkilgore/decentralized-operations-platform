@@ -27,7 +27,7 @@ The Powerhouse Decentralized Operations Platform is a modern web application bui
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/decentralized-operations-platform.git
+git clone https://github.com/0xkilgore/decentralized-operations-platform.git
 cd decentralized-operations-platform
 ```
 
