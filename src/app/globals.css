@@ -77,24 +77,24 @@
   }
 
   .btn-primary {
-    @apply bg-primary text-primary-foreground font-medium py-3 px-6 rounded-md transition-all duration-300 inline-flex items-center justify-center;
-    box-shadow: 0 0 15px rgba(52, 235, 79, 0.4);
+    @apply bg-neon-green text-background font-medium py-3 px-6 rounded-md transition-all duration-300 inline-flex items-center justify-center;
+    box-shadow: 0 0 10px rgba(46, 216, 68, 0.3);
   }
   
   .btn-primary:hover {
-    @apply bg-primary/90;
-    transform: translateY(-2px);
-    box-shadow: 0 0 25px rgba(52, 235, 79, 0.7);
+    @apply bg-neon-green-light;
+    transform: translateY(-1px);
+    box-shadow: 0 0 15px rgba(46, 216, 68, 0.4);
   }
 
   .btn-secondary {
-    @apply border-2 border-primary text-primary font-medium py-3 px-6 rounded-md transition-all duration-300 inline-flex items-center justify-center;
+    @apply border-2 border-neon-green text-neon-green font-medium py-3 px-6 rounded-md transition-all duration-300 inline-flex items-center justify-center;
   }
   
   .btn-secondary:hover {
-    @apply bg-primary/10;
-    transform: translateY(-2px);
-    box-shadow: 0 0 15px rgba(52, 235, 79, 0.4);
+    @apply bg-neon-green/5;
+    transform: translateY(-1px);
+    box-shadow: 0 0 10px rgba(46, 216, 68, 0.2);
   }
 
   .section-title {
@@ -110,23 +110,23 @@
   }
 
   .neon-glow {
-    text-shadow: 0 0 10px rgba(52, 235, 79, 0.7), 0 0 20px rgba(52, 235, 79, 0.4);
+    text-shadow: 0 0 8px rgba(46, 216, 68, 0.5);
   }
 
   .neon-border {
-    @apply border-2 border-primary;
-    box-shadow: 0 0 10px rgba(52, 235, 79, 0.5), inset 0 0 5px rgba(52, 235, 79, 0.2);
+    @apply border-2 border-neon-green;
+    box-shadow: 0 0 8px rgba(46, 216, 68, 0.3), inset 0 0 4px rgba(46, 216, 68, 0.1);
   }
 
   .card {
-    @apply bg-card text-card-foreground rounded-lg p-6 transition-all duration-300;
-    border: 1px solid rgba(52, 235, 79, 0.2);
+    @apply bg-background-light rounded-lg p-6 transition-all duration-300;
+    border: 1px solid rgba(46, 216, 68, 0.1);
   }
   
   .card:hover {
-    border-color: rgba(52, 235, 79, 0.5);
-    box-shadow: 0 0 20px rgba(52, 235, 79, 0.4), inset 0 0 10px rgba(52, 235, 79, 0.1);
-    transform: translateY(-3px);
+    border-color: rgba(46, 216, 68, 0.3);
+    box-shadow: 0 0 15px rgba(46, 216, 68, 0.2), inset 0 0 8px rgba(46, 216, 68, 0.05);
+    transform: translateY(-2px);
   }
   
   .feature-box {

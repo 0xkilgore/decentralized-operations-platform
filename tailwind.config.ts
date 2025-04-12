@@ -45,9 +45,9 @@ const config: Config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        "neon-green": "#34eb4f",
-        "neon-green-dark": "#2bc73f",
-        "neon-green-light": "#5aff72",
+        "neon-green": "#2ed844",
+        "neon-green-dark": "#25b938",
+        "neon-green-light": "#4ddb61",
         "background-light": "#1a1a1a", // Added the missing background-light color
         gray: {
           100: "#f5f5f5",
